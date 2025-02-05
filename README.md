@@ -15,4 +15,4 @@ The next section was not given a name, as I wasn’t sure exactly the extent of 
 
 The next section of the page is named “Contact” and that’s where our form is. It begins with the required contact information (name, email, message) and has the radio buttons to select how the page was found.
 
-Extra elements I’ve added includes a return to the top of the page (“Home”) link underneath the contact form, and a footer. I also changed the body background color, added styling to the table, and added styling to certain paragraphs to align them center or right. 
+Extra elements I’ve added includes a reset form button, a return to the top of the page (“Home”) link underneath the contact form, and a footer. I also changed the body background color, added styling to the table, and added styling to certain paragraphs to align them center or right. 
