@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 HTML Assignment</title>
+
+    <!-- Styling elements  -->
+    <style>
+
+        body { 
+            background-color: beige;
+        }
+
+        table tr td {
+            border: 1px double black;
+            border-collapse: collapse;
+            background-color: antiquewhite;
+        }
+
+        .dog {
+            border-radius: 30%
+        }
+
+        .placeholder {
+            border-radius: 30%
+        }
+
+        .return {
+            text-align: right;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+    </style>
+
+
+</head>
+<body>
+<section id="Home">
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+</section>
+    <br />
+    <br />
+
+<!-- Product Information -->
+
+<section id="About">
+    <table style="width:30%">
+
+<!-- Bonus: header row -->
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+             <td>Basic Obedience</td>
+             <td>$600/week</td>
+             <td>5 slots</td>
+        </tr>
+
+        <tr>
+            <td>Sport Training</td>
+            <td>$725/week</td>
+            <td>5 slots</td>
+        </tr>
+
+        <tr>
+            <td>Behavior Modification</td>
+            <td>$850/week</td>
+            <td>3 slots</td>
+        </tr>
+
+        <tr>
+            <td>Off-site Private Lesson</td>
+            <td>$125/hour</td>
+            <td>8 slots</td>
+        </tr>
+
+    </table>
+</section>
+<br />
+<br />
+
+    <!-- Photos section -->
+
+<section id="About">
+    <p>
+        <img src="https://placehold.co/300x200" alt="Placeholder image" title="Placeholder image">
+        <br />
+        <!-- This is the bonus rounded image using css style and a class definition for this specific image so it doesn't round both images. -->
+        <img class="image dog" src="helloct.png" alt="Standard Poodle holding a sign that reads 'Hi, Coding Temple Team!'" title="Dog holding sign" style="width:300px;">
+        <br /> 
+        <img class="image placeholder" src="https://placehold.co/300x200" alt="Placeholder image" title="Rounded placeholder">
+    </p>
+
+</section>
+
+<br />
+<br />
+
+    <!-- Contact Form -->
+<section id="Contact">
+<form action="#" method="POST">
+    <fieldset>
+        <legend>Contact Us</legend>
+    <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br />
+
+    <label for="email">Email:</label>
+    <input type="email" id="user-email" name="user-email" required>
+    </p>   
+
+    <p>
+    <label for="message">Your Message:</label>
+    <br />
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+    </p>
+    
+    <!-- Below is the bonus radio button challenge.  -->
+
+    <p>
+    <label for="referral">How did you hear about us?</label>
+    <br />
+    <input type="radio" id="google" name="referral" value="google">
+    <label for="Google">Google</label>
+    <input type="radio" id="search-engine" name="referral" value="search-engine">
+    <label for="search-engine">Another Search Engine</label>
+    <input type="radio" id="friend" name="referral" value="friend">
+    <label for="friend">Friend</label>
+    <input type="radio" id="family" name="referral" value="family">
+    <label for="family">Family Member</label>
+    <input type="radio" id="other" name="referral" value="other">
+    <label for="other">Other</label>
+ 
+    </p>
+    <p>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit"> 
+    </p>
+
+</form> 
+</section>
+
+<section>
+    <p class="return">
+        <a href="#Home">Return to top of page?</a>
+    </p>
+</section>
+
+<br />
+<footer class="footer">
+    2025 Module 4 HTML Knowledge Check. Thanks CodingTemple!
+</footer>
+
+</body>
+</html>
